@@ -14,7 +14,7 @@ This repository serves to index and allows for navigation through the growing co
 
 Here is a manually updated list every time a new repository or collateral is published for quick navigation to relevant material. 
 
-## Configuring your Deployment
+## Optimizing your User Experience
 
 **[XenApp-XenDesktop-WEM-101](https://github.com/Citrix-TechSpecialist/XenApp-XenDesktop-WEM-101)**
 
