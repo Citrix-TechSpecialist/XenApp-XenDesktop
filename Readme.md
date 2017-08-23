@@ -22,3 +22,25 @@ In this lab, you will discover how to build a snappy user experience, increase u
 
   * Learn how to configure CPU/RAM/IOPS optimizations
   * Learn how to replace user GPPs and login scripts
+
+## Azure
+
+**[Citrix-Cloud-ResourceLocation-Arm-Template](https://github.com/citrix/Citrix-Cloud-ResourceLocation-Arm-Template)**
+
+**This template is intended for demonstration deployments of Citrix XenDesktop on Azure.  As stated below, this will provision all of the resources necessary for a stand-alone deployment with a unique Active Directory domain.**
+
+**This is not intended to integrate with an existing Active Directory domain, Azure Active Directory, or other existing resources**
+
+This template creates a *fully self-contained* Citrix Cloud Resource Location compatible with Citrix XenDesktop with the XenApp and XenDesktop Service or Citrix XenDesktop Essentials Service trial licensing. A completed deployment from this template will consist of the following resources:
+
+* Windows Server Active Directory Domain Controller
+* Citrix NetScaler VPX 11.1
+* Citrix Virtual Delivery Agent (VDAs)
+	* Windows 10 HUB CBB (Client VDI golden image)
+	* Windows Server 2016 (Server VDI golden image)
+* Citrix Cloud Connector
+* Jump Box / Bastian Host (VM built exclusively for remote access to the other resources)
+* Azure Load Balancer
+* Azure Virtual Network and Subnet
+* Azure Storage Account
+* Azure Availability Set
